@@ -1,0 +1,8 @@
+default: -p prd
+default_hml: -p hml
+
+prd: ENVIRONMENT='prd'
+hml: ENVIRONMENT='hml'
+
+#Visual Mode
+headless: HEADLESS="true"
