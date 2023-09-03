@@ -18,14 +18,16 @@ Antes de começar é importante saber que esse peojeto foi desenvolvido no siste
 
 * Instalar o  `<Ruby>`
 * Intalar a versão mais recente do `<Cmder>`.
-* Possuir `<VsCode com plugins --> Cucumber -- Cucumber(Gherkin) -- Gherkin Indent -- Ruby -- Snippets and Syntax Hihglight -- VSCode Ruby >`.
+* Possuir `<VsCode com plugins- Cucumber- Cucumber(Gherkin)- Gherkin Indent- Ruby- Snippets and Syntax Hihglight -- VSCode Ruby >`.
 
 ## 🚀 Instalando <Automação_Testes>
 
 Para instalar o <Automação_Testes>, siga estas etapas:
-    * `<Realizar Fork do repositório>`
-    * `<No Cmder, entrar na pasta Automação_Testes>`
+* Realizar Fork do repositório
+* No Cmder, entrar na pasta Automação_Testes
+* E executar o comando abaixo:
 
+    
 
 Windows:
 ```
