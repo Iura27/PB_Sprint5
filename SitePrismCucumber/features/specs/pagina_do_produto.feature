@@ -2,24 +2,38 @@
 
 @regression
 @pdp
-Funcionalidade: Busca
-  COMO o usuário do site do Ecomerce Vans.com.br
-  QUERO poder personalizar os produtos que irei copmprar
+Funcionalidade: Página do produto
+  SENDO um usuário do AdvantageOnlieShopping
+  QUERO poder personalizar os produtos que irei copmprar na pagina do produto
   PARA ter uma melhor experiência de compra
 
  Contexto: Estar na página de um produto
-    Dado que estja na home
-    Quando realizar uma busca pro produto existente
-    E acessar a páginado produto 
+    Dado que esteja na página de um produto existente
+    
 
   @change_color_pdp
   Cenário: Trocar a cor do produto na PDP
      Quando Alterara cor de um produto
      Então devera aleterar a imagem apresentada na PDP
 
-  @add_products_carts
+  @incrise_product_quantity
+  @incrise_product_quantity_only_pdp
+  Cenário: Aumentar quantidade de produto na PDP
+    Quando aumentar a quantidade do produto
+    Então deverá aleterar a quantidade exibida na PDP
+
+  @incrise_product_quantity
+  @incrise_product_quantity_validate_cart
+  Cenário: Aumentar quantidade de produto na PDP aumenta no carrinho
+    Quando aumentar a quantidade do produto
+    E adicionar no carrinho
+    Então o produto deverá ser adicionado ao carrinho com a quantidade aumentada
+
+
+
+  @add_products_to_cart_pdp
   Cenário: Adicionar produto ao carrinho pela PDP
-    Quando Adicionar ao carrinho
+    Quando Adicionar o produto ao carrinho
     Então o produto deve ser adicionado ao carrinho com sucesso
 
   @carrosel_pdp

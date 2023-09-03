@@ -24,6 +24,6 @@ Funcionalidade: Busca
     |     produto     | 
     | Speakers        |
     | Tablets         |
-    | Leptops         |
+    | Laptops         |
     | Mice            |
     | Headphones      |
