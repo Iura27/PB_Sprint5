@@ -10,6 +10,13 @@
 
 > Essa sprint foi dedicada a melhorar a qualidade do nosso projeto de testes, com foco na automação de testes. Durante esse período, exploramos várias etapas do processo de teste, incluindo a criação de mapas mentais, o desenvolvimento de cenários Gherkin e a implementação de testes automatizados usando Ruby, Cucumber, Capybara e SitePrism.
 
+## 👨‍💻 Tecnologias Utilizadas
+
+* Ruby
+* Cucumber
+* Capybara
+* Selenium-webdriver
+* RSpec
 
 
 ## 💻 Pré-requisitos
@@ -47,4 +54,5 @@ Para usar <Automação_Testes>, siga estas etapas:
 ## 🤝 Autor
 
 Iura Kurtz Filho
+
 
